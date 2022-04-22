@@ -20,7 +20,7 @@ class AudioManager:
 
     def __init__(self, logger, config_file, display_man, sound_man):
         # Porcupine handles the wakewords
-        self.porc = pvporcupine.create(keywords=["computer"])
+        self.porc = pvporcupine.create(keywords=["droid"])
         self.fs = self.porc.sample_rate
         self.frame_len = self.porc.frame_length
         self.l = logger

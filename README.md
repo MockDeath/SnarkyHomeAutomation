@@ -9,3 +9,6 @@ This code is currently only compatible with LIFX smart bulbs, but it should be a
 I wrote this voice assistant software in a modular manner, so you can easily extend this package to handle other voice assistant functions. For example, in addition to handling smart lights, you could also give this voice assistant the ability to add items to a to-do list.
 
 This package is broken up into a variety of modules. Check `Run.py` to see a general overview of how data is delivered between modules and the general flow of the program. There are comments throughout describing some of the basic behaviors.
+
+## Path to virtual environment.
+/virtual_env/h1_bot

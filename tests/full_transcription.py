@@ -16,7 +16,7 @@ def rms(samps):
     return np.sqrt(np.mean(larger**2))
 
 def run():
-    porc = pvporcupine.create(keywords=["computer"])
+    porc = pvporcupine.create(keywords=["droid"])
     pa = pyaudio.PyAudio()
     r = sr.Recognizer()
 

@@ -4,7 +4,7 @@ import pyaudio
 import struct
 
 def run():
-    porc = pvporcupine.create(keywords=["computer"])
+    porc = pvporcupine.create(keywords=["droid"])
     pa = pyaudio.PyAudio()
 
     audio_stream = pa.open(
